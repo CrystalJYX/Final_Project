@@ -1,0 +1,104 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/vocab.txt HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140091756674128 on /cache_dir/45c3f7a79a80e1cf0a489e5c62b43f173c15db47864303a55d623bb3c96f72a5.d789d64ebfe299b0e416afc4a169632f903f693095b4629a7ea271d5a0cf2c99.lock
+DEBUG:filelock:Lock 140091756674128 acquired on /cache_dir/45c3f7a79a80e1cf0a489e5c62b43f173c15db47864303a55d623bb3c96f72a5.d789d64ebfe299b0e416afc4a169632f903f693095b4629a7ea271d5a0cf2c99.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /bert-base-uncased/resolve/main/vocab.txt HTTP/1.1" 200 231508
+DEBUG:filelock:Attempting to release lock 140091756674128 on /cache_dir/45c3f7a79a80e1cf0a489e5c62b43f173c15db47864303a55d623bb3c96f72a5.d789d64ebfe299b0e416afc4a169632f903f693095b4629a7ea271d5a0cf2c99.lock
+DEBUG:filelock:Lock 140091756674128 released on /cache_dir/45c3f7a79a80e1cf0a489e5c62b43f173c15db47864303a55d623bb3c96f72a5.d789d64ebfe299b0e416afc4a169632f903f693095b4629a7ea271d5a0cf2c99.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140091756756496 on /cache_dir/c1d7f0a763fb63861cc08553866f1fc3e5a6f4f07621be277452d26d71303b7e.20430bd8e10ef77a7d2977accefe796051e01bc2fc4aa146bc862997a1a15e79.lock
+DEBUG:filelock:Lock 140091756756496 acquired on /cache_dir/c1d7f0a763fb63861cc08553866f1fc3e5a6f4f07621be277452d26d71303b7e.20430bd8e10ef77a7d2977accefe796051e01bc2fc4aa146bc862997a1a15e79.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 28
+DEBUG:filelock:Attempting to release lock 140091756756496 on /cache_dir/c1d7f0a763fb63861cc08553866f1fc3e5a6f4f07621be277452d26d71303b7e.20430bd8e10ef77a7d2977accefe796051e01bc2fc4aa146bc862997a1a15e79.lock
+DEBUG:filelock:Lock 140091756756496 released on /cache_dir/c1d7f0a763fb63861cc08553866f1fc3e5a6f4f07621be277452d26d71303b7e.20430bd8e10ef77a7d2977accefe796051e01bc2fc4aa146bc862997a1a15e79.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140091642856080 on /cache_dir/3c61d016573b14f7f008c02c4e51a366c67ab274726fe2910691e2a761acf43e.37395cee442ab11005bcd270f3c34464dc1704b715b5d7d52b1a461abe3b9e4e.lock
+DEBUG:filelock:Lock 140091642856080 acquired on /cache_dir/3c61d016573b14f7f008c02c4e51a366c67ab274726fe2910691e2a761acf43e.37395cee442ab11005bcd270f3c34464dc1704b715b5d7d52b1a461abe3b9e4e.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 570
+DEBUG:filelock:Attempting to release lock 140091642856080 on /cache_dir/3c61d016573b14f7f008c02c4e51a366c67ab274726fe2910691e2a761acf43e.37395cee442ab11005bcd270f3c34464dc1704b715b5d7d52b1a461abe3b9e4e.lock
+DEBUG:filelock:Lock 140091642856080 released on /cache_dir/3c61d016573b14f7f008c02c4e51a366c67ab274726fe2910691e2a761acf43e.37395cee442ab11005bcd270f3c34464dc1704b715b5d7d52b1a461abe3b9e4e.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+DEBUG:filelock:Attempting to acquire lock 140091756756432 on /cache_dir/a8041bf617d7f94ea26d15e218abd04afc2004805632abc0ed2066aa16d50d04.faf6ea826ae9c5867d12b22257f9877e6b8367890837bd60f7c54a29633f7f2f.lock
+DEBUG:filelock:Lock 140091756756432 acquired on /cache_dir/a8041bf617d7f94ea26d15e218abd04afc2004805632abc0ed2066aa16d50d04.faf6ea826ae9c5867d12b22257f9877e6b8367890837bd60f7c54a29633f7f2f.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://cdn-lfs.huggingface.co:443 "GET /bert-base-uncased/097417381d6c7230bd9e3557456d726de6e83245ec8b24f529f60198a67b203a?response-content-disposition=attachment%3B%20filename%3D%22pytorch_model.bin%22 HTTP/1.1" 200 440473133
+DEBUG:filelock:Attempting to release lock 140091756756432 on /cache_dir/a8041bf617d7f94ea26d15e218abd04afc2004805632abc0ed2066aa16d50d04.faf6ea826ae9c5867d12b22257f9877e6b8367890837bd60f7c54a29633f7f2f.lock
+DEBUG:filelock:Lock 140091756756432 released on /cache_dir/a8041bf617d7f94ea26d15e218abd04afc2004805632abc0ed2066aa16d50d04.faf6ea826ae9c5867d12b22257f9877e6b8367890837bd60f7c54a29633f7f2f.lock
+INFO:root:train epoch, 0, mwoz_SE_DAR_16
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/vocab.txt HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+INFO:root:train epoch, 0, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(1.0768, device='cuda:0', grad_fn=<DivBackward0>), tensor(69.3309, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.3361487169584133, 0.1837516765663919, 0.3824645759813523, 0.08982195057135264), action: valid_result=(0.8106078992082525, 0.7487248534295399, 0.7499553904112505, 0.7298711706643893)
+INFO:root:satisfaction: best_valid_result=(0.3361487169584133, 0.1837516765663919, 0.3824645759813523, 0.08982195057135264), action: best_valid_result=(0.8106078992082525, 0.7487248534295399, 0.7499553904112505, 0.7298711706643893)
+INFO:root:satisfaction: test_result=(0.2933039888654765, 0.17977614056248392, 0.3423934464122722, 0.036337209302325583), action: test_result=(0.811599724816468, 0.7391011615759739, 0.7418185654874709, 0.7196419938634978)
+INFO:root:train epoch, 1, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.9366, device='cuda:0', grad_fn=<DivBackward0>), tensor(29.7672, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.3122582440675656, 0.18768057321160292, 0.5438198558054346, 0.08127721335268505), action: valid_result=(0.8320086554681622, 0.7796247064890169, 0.7763085091235257, 0.7577824423723362)
+INFO:root:satisfaction: best_valid_result=(0.3361487169584133, 0.1837516765663919, 0.3824645759813523, 0.08982195057135264), action: best_valid_result=(0.8106078992082525, 0.7487248534295399, 0.7499553904112505, 0.7298711706643893)
+INFO:root:satisfaction: test_result=(0.328105838299486, 0.20743055495442464, 0.5254127274850999, 0.1102497846683893), action: test_result=(0.8258739763040225, 0.7634634220371034, 0.7583847494809565, 0.7413305146418787)
+INFO:root:train epoch, 2, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.8356, device='cuda:0', grad_fn=<DivBackward0>), tensor(19.3832, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.4017014074267604, 0.2098494383511087, 0.341384280323179, 0.23619846261355695), action: valid_result=(0.8424438677519672, 0.7822672032072181, 0.7842173864495297, 0.7672642437034264)
+INFO:root:satisfaction: best_valid_result=(0.4017014074267604, 0.2098494383511087, 0.341384280323179, 0.23619846261355695), action: best_valid_result=(0.8424438677519672, 0.7822672032072181, 0.7842173864495297, 0.7672642437034264)
+INFO:root:satisfaction: test_result=(0.3611060839139746, 0.18641987054559295, 0.2795822884862694, 0.16002214839424142), action: test_result=(0.847187946800906, 0.7845870866185422, 0.784853580301851, 0.7704939683734574)
+INFO:root:train epoch, 3, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.7230, device='cuda:0', grad_fn=<DivBackward0>), tensor(13.3026, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.40043460974861694, 0.2986770820209148, 0.5241000461144918, 0.27910288358846563), action: valid_result=(0.8468098802605849, 0.7954111029815247, 0.7889975002129176, 0.7765486158509491)
+INFO:root:satisfaction: best_valid_result=(0.40043460974861694, 0.2986770820209148, 0.5241000461144918, 0.27910288358846563), action: best_valid_result=(0.8468098802605849, 0.7954111029815247, 0.7889975002129176, 0.7765486158509491)
+INFO:root:satisfaction: test_result=(0.3705819555222324, 0.2507947418163071, 0.41723734418870295, 0.25038035209737014), action: test_result=(0.8544012769213459, 0.7982974019118353, 0.7935808876530112, 0.7809381914129649)
+INFO:root:train epoch, 4, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.5885, device='cuda:0', grad_fn=<DivBackward0>), tensor(10.8389, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.3810998148421615, 0.2561399956978906, 0.4628720715469046, 0.1583668419424683), action: valid_result=(0.8467861135994934, 0.7992306405774712, 0.7932381092108208, 0.7799542035361714)
+INFO:root:satisfaction: best_valid_result=(0.40043460974861694, 0.2986770820209148, 0.5241000461144918, 0.27910288358846563), action: best_valid_result=(0.8468098802605849, 0.7954111029815247, 0.7889975002129176, 0.7765486158509491)
+INFO:root:satisfaction: test_result=(0.348177174226853, 0.22735146440174658, 0.37039190004042744, 0.17510259917920656), action: test_result=(0.8576720870872264, 0.8026314408281157, 0.7973816173996373, 0.783972329187229)
+INFO:root:train epoch, 5, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.4599, device='cuda:0', grad_fn=<DivBackward0>), tensor(8.6765, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.3809355582565629, 0.18673280045675134, 0.3012760328257881, 0.1959003028185418), action: valid_result=(0.8463981327097518, 0.799052235490867, 0.7949507927192794, 0.7798550897776672)
+INFO:root:satisfaction: best_valid_result=(0.40043460974861694, 0.2986770820209148, 0.5241000461144918, 0.27910288358846563), action: best_valid_result=(0.8468098802605849, 0.7954111029815247, 0.7889975002129176, 0.7765486158509491)
+INFO:root:satisfaction: test_result=(0.36984080303010713, 0.1790385423154358, 0.26758807943563256, 0.1695613776861937), action: test_result=(0.8421501568003867, 0.7920266437939267, 0.7879223202574684, 0.7731319716326717)
+INFO:root:train epoch, 6, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.3834, device='cuda:0', grad_fn=<DivBackward0>), tensor(7.5125, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.35718298819760774, 0.2478778614604773, 0.460308639770343, 0.15736651947009234), action: valid_result=(0.8396255153297404, 0.792403071628424, 0.7914540320325034, 0.775587093913441)
+INFO:root:satisfaction: best_valid_result=(0.40043460974861694, 0.2986770820209148, 0.5241000461144918, 0.27910288358846563), action: best_valid_result=(0.8468098802605849, 0.7954111029815247, 0.7889975002129176, 0.7765486158509491)
+INFO:root:satisfaction: test_result=(0.32920485541062866, 0.23308651407402814, 0.4088965752616194, 0.07833537331701346), action: test_result=(0.8476026935602625, 0.7927253303844483, 0.7861955679386852, 0.7733477608620606)
+INFO:root:train epoch, 7, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.3365, device='cuda:0', grad_fn=<DivBackward0>), tensor(6.7843, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.39590494473663285, 0.2460008775387269, 0.39137591483190637, 0.2807726864330638), action: valid_result=(0.8544499921700627, 0.8048076675541457, 0.8032499361246851, 0.7896263974806744)
+INFO:root:satisfaction: best_valid_result=(0.39590494473663285, 0.2460008775387269, 0.39137591483190637, 0.2807726864330638), action: best_valid_result=(0.8544499921700627, 0.8048076675541457, 0.8032499361246851, 0.7896263974806744)
+INFO:root:satisfaction: test_result=(0.37026944340309653, 0.21076174574493456, 0.32297129909677214, 0.18792576932111815), action: test_result=(0.860016358195831, 0.8077910172096363, 0.8030548091067811, 0.7911970277773086)
+INFO:root:train epoch, 8, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.2731, device='cuda:0', grad_fn=<DivBackward0>), tensor(6.7614, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.34529028886894686, 0.2612156119962603, 0.4624499649421595, 0.24770198355104014), action: valid_result=(0.8447691376828701, 0.800471043855726, 0.7931638674640435, 0.7785763057963656)
+INFO:root:satisfaction: best_valid_result=(0.39590494473663285, 0.2460008775387269, 0.39137591483190637, 0.2807726864330638), action: best_valid_result=(0.8544499921700627, 0.8048076675541457, 0.8032499361246851, 0.7896263974806744)
+INFO:root:satisfaction: test_result=(0.34795396667399203, 0.26131835723025754, 0.3984609361576319, 0.22234826999432789), action: test_result=(0.8449064760417972, 0.7941142387765507, 0.7858688890338205, 0.7724855274638576)
+INFO:root:train epoch, 9, mwoz_SE_DAR_16
+INFO:root:loss: [tensor(0.2538, device='cuda:0', grad_fn=<DivBackward0>), tensor(6.3357, device='cuda:0', grad_fn=<DivBackward0>)]
+INFO:root:satisfaction: valid_result=(0.3520448013813002, 0.24539937674266032, 0.5530224588847696, 0.1789409616555082), action: valid_result=(0.8484728137016869, 0.8022035241753555, 0.8036156722078509, 0.786235309388113)
+INFO:root:satisfaction: best_valid_result=(0.39590494473663285, 0.2460008775387269, 0.39137591483190637, 0.2807726864330638), action: best_valid_result=(0.8544499921700627, 0.8048076675541457, 0.8032499361246851, 0.7896263974806744)
+INFO:root:satisfaction: test_result=(0.3780023139470248, 0.2764386175994691, 0.5114727220940456, 0.23211935059236505), action: test_result=(0.8653236098763633, 0.8127071468878089, 0.8114950624772034, 0.7978969411895273)
+INFO:root:train epoch, 10, mwoz_SE_DAR_16
