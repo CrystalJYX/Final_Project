@@ -1,8 +1,8 @@
 # Final_Project: User Satisfaction Estimation in Task-oriented Dialogue Systems
 
 #### Document description
-MWOZ and SGD files respectivaly contain 6 models, which are USDA (SE_DAR)[1], SE_DAR_DSR and SE_DAR_SDE for datasets (SGD and MWOZ)[2] based on three-level scale and five-class scale. data processing file contains plots used in this report.
-* USDA (SE_DAR)[1]: two-task-learning model for User Satisfaction Estimation (SE) and User Dialogue Act Recognition (DAR)  
+MWOZ and SGD files respectivaly contain 6 models, which are SE_DAR (USDA [1]), SE_DAR_DSR and SE_DAR_SDE for datasets (SGD and MWOZ [2]) based on three-level scale and five-class scale. data processing file contains plots used in this report.
+* SE_DAR (USDA): two-task-learning model for User Satisfaction Estimation (SE) and User Dialogue Act Recognition (DAR)  
 * SE_DAR_DSR: three-task-learning model for User Satisfaction Estimation (SE), User Dialogue Act Recognition (DAR) and User Dialogue Satisfaction Recognition (DSR)  
 * SE_DAR_SDE: three-task-learning model for User Satisfaction Estimation (SE), User Dialogue Act Recognition (DAR) and User Satisfaction Difference Estimation (SDE)  
 
